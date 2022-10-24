@@ -13,13 +13,13 @@ namespace CCC
             Console.WriteLine("Enter four numbers, seperated by spaces:");
 
             // Retrieve distances from user
-            string userInput = Console.ReadLine();
+            string distancesInput = Console.ReadLine();
 
             // Display distances
-            Console.WriteLine("You entered: " + userInput);
+            Console.WriteLine("You entered: " + distancesInput);
 
             // Split distances into an array
-            string[] distances = userInput.Split(' ');
+            string[] distances = distancesInput.Split(' ');
 
 
             // Five different starting points

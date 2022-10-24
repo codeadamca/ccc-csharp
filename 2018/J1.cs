@@ -12,17 +12,17 @@ namespace CCC
             // Display instructions
             Console.WriteLine("Enter four numbers, press ENTER after each number:");
 
-            // Create a string variable and get user input from the keyboard and store it in the variable
-            int userInput1 = Convert.ToInt32(Console.ReadLine());
-            int userInput2 = Convert.ToInt32(Console.ReadLine());
-            int userInput3 = Convert.ToInt32(Console.ReadLine());
-            int userInput4 = Convert.ToInt32(Console.ReadLine());
+            // Get the four numbers of the phone number
+            int number1Input = Convert.ToInt32(Console.ReadLine());
+            int number2Input = Convert.ToInt32(Console.ReadLine());
+            int number3Input = Convert.ToInt32(Console.ReadLine());
+            int number4Input = Convert.ToInt32(Console.ReadLine());
 
             // Display the complete series of numbers
-            Console.WriteLine("You entered " + userInput1 + userInput2 + userInput3 + userInput4);
+            Console.WriteLine("You entered " + number1Input + number2Input + number3Input + number4Input);
 
             // Check if the number is a telemarketer
-            if (userInput1 > 7 && userInput2 == userInput3 && userInput4 > 7)
+            if (number1Input > 7 && number2Input == number3Input && number4Input > 7)
             {
                 Console.WriteLine("Ignore");
             }
