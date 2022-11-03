@@ -8,4 +8,12 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="2022\" />
+    <None Remove="2006\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="2022\" />
+    <Folder Include="2006\" />
+  </ItemGroup>
 </Project>

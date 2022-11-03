@@ -7,7 +7,7 @@ namespace CCC
         static void Main()
         {
 
-            J22018.Execute();
+            J32006.Execute();
 
             // Program complete
             Console.WriteLine("--------------------------------------------------");
